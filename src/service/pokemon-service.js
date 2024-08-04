@@ -3,17 +3,25 @@ import { ResponseError } from '../error/response-error.js';
 
 const listPokemons = async (req) => {
   try {
-    const page = req.params.page || 1
-    const perPage = req.params.per_page || 10
-    const offset = (page - 1) * perPage;
+    const page = Number(req.query.page) || 1
+    const perPage = Number(req.query.per_page) || 10
+    const offset = Number((page - 1) * perPage);
+    const isRename = req.query.is_rename === 'true'; 
 
     // Fetch the paginated pokemons
     const [pokemons, totalCount] = await Promise.all([
       prismaClient.pokemon.findMany({
         skip: offset,
         take: perPage,
+        where: {
+          ...(isRename ? { nickname: { not: null } } : {}),
+        },
       }),
-      prismaClient.pokemon.count(), // Get the total number of pokemons
+      prismaClient.pokemon.count({
+        where: {
+          ...(isRename ? { nickname: { not: null } } : {}),
+        },
+      }), // Get the total number of pokemons
     ]);
 
     return {
@@ -32,9 +40,19 @@ const listPokemons = async (req) => {
 
 const getPokemon = async (req) => {
   try {
-    const pokemon = await prismaClient.pokemon.findUnique({
-      where: { id: parseInt(req.params.id) },
-    });
+    const { identifier } = req.params;
+    let pokemon;
+    if (!isNaN(parseInt(identifier))) {
+      // If the identifier is a number, query by ID
+      pokemon = await prismaClient.pokemon.findUnique({
+        where: { id: parseInt(identifier) },
+      });
+    } else {
+      // Otherwise, query by Name
+      pokemon = await prismaClient.pokemon.findFirst({
+        where: { name: identifier },
+      });
+    }
 
     if (!pokemon) {
       throw new ResponseError(404, 'Pokémon not found');

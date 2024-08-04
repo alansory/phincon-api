@@ -7,7 +7,7 @@ async function main() {
     {
       id:1,
       name: 'bulbasaur',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png',
       moves: [],
       types: ['poison', 'grass'],
       caught: false,
@@ -17,7 +17,7 @@ async function main() {
     {
       id:2,
       name: 'ivysaur',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png',
       moves: [],
       types: ['poison', 'grass'],
       caught: false,
@@ -27,7 +27,7 @@ async function main() {
     {
       id:3,
       name: 'venusaur',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png',
       moves: [],
       types: ['poison', 'grass'],
       caught: false,
@@ -37,7 +37,7 @@ async function main() {
     {
       id:4,
       name: 'venusaur-mega',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png',
       moves: [],
       types: ['poison', 'grass'],
       caught: false,
@@ -47,7 +47,7 @@ async function main() {
     {
       id:5,
       name: 'charmander',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png',
       moves: [],
       types: ['fire'],
       caught: false,
@@ -57,7 +57,7 @@ async function main() {
     {
       id:6,
       name: 'charmeleon',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png',
       moves: [],
       types: ['fire'],
       caught: false,
@@ -67,7 +67,7 @@ async function main() {
     {
       id:7,
       name: 'charizard',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png',
       moves: [],
       types: ['flying', 'fire'],
       caught: false,
@@ -77,7 +77,7 @@ async function main() {
     {
       id:8,
       name: 'charizard-mega-y',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png',
       moves: [],
       types: ['flying', 'fire'],
       caught: false,
@@ -87,7 +87,7 @@ async function main() {
     {
       id:9,
       name: 'charizard-mega-x',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png',
       moves: [],
       types: ['dragon', 'fire'],
       caught: false,
@@ -97,7 +97,7 @@ async function main() {
     {
       id:10,
       name: 'squirtle',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png',
       moves: [],
       types: ['water'],
       caught: false,
@@ -107,7 +107,7 @@ async function main() {
     {
       id:11,
       name: 'wartortle',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png',
       moves: [],
       types: ['water'],
       caught: false,
@@ -117,7 +117,7 @@ async function main() {
     {
       id:12,
       name: 'blastoise',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png',
       moves: [],
       types: ['water'],
       caught: false,
@@ -127,7 +127,7 @@ async function main() {
     {
       id:13,
       name: 'blastoise-mega',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10036.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png',
       moves: [],
       types: ['water'],
       caught: false,
@@ -137,7 +137,7 @@ async function main() {
     {
       id:14,
       name: 'caterpie',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png',
       moves: [],
       types: ['bug'],
       caught: false,
@@ -147,7 +147,7 @@ async function main() {
     {
       id:15,
       name: 'metapod',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png',
       moves: [],
       types: ['bug'],
       caught: false,
@@ -157,7 +157,7 @@ async function main() {
     {
       id:16,
       name: 'butterfree',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png',
       moves: [],
       types: ['flying', 'bug'],
       caught: false,
@@ -167,7 +167,7 @@ async function main() {
     {
       id:17,
       name: 'weedle',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png',
       moves: [],
       types: ['poison', 'bug'],
       caught: false,
@@ -177,7 +177,7 @@ async function main() {
     {
       id:18,
       name: 'kakuna',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png',
       moves: [],
       types: ['poison', 'bug'],
       caught: false,
@@ -187,7 +187,7 @@ async function main() {
     {
       id:19,
       name: 'beedrill',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png',
       moves: [],
       types: ['poison', 'bug'],
       caught: false,
@@ -197,7 +197,7 @@ async function main() {
     {
       id:20,
       name: 'dugtrio',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/051.png',
       moves: [],
       types: ['ground'],
       caught: false,
@@ -207,7 +207,7 @@ async function main() {
     {
       id:21,
       name: 'meowth',
-      picture: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png',
+      picture: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png',
       moves: [],
       types: ['normal'],
       caught: false,

@@ -1,7 +1,7 @@
 import pokemonService from "../service/pokemon-service.js";
 import response from "../util/response.js";
 
-const listPokemons = async (req, res, next) => {
+const listPokemons = async (req, res) => {
   try {
     const result = await pokemonService.listPokemons(req);
     response.successResponse(res, result, 200);
